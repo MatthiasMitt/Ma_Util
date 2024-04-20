@@ -1,16 +1,24 @@
-#old: #! python2
 # -*- coding: utf-8 -*-
-
-# NOTE: The first line in this script specified that it should always be run using Python 2.7.
-# The `midiutil` module was not available for Python 3.
-
-# But now it is.
+modulename = "Ma_MIDI.py"
+_c_ = '(c) 2024, Matthias Mittelstein, Germany, 23816 Neversdorf, Hauptstraße 23'
 
 '''Generates a MIDI file with ... . The result is then played with the sound.MIDIPlayer class.
 If nothing happens, make sure that your device isn't muted.
 '''
 
-from midiutil.MidiFile import MIDIFile
+'''
+Bausteine um Melodien aufzuschreiben, die dann nach MIDI umgewandelt
+werden können. Auf iPad und iPhone scheint das der einzige Weg zur
+Tonausgabe zu sein: Erst eine MIDI-Datei erstellen und sie dann
+abspielen.
+[ Funktioniert bisher nur auf iPad und iPhone. ]
+'''
+
+try:
+	from midiutil.MidiFile import MIDIFile
+except:
+	pass
+
 from random import choice, randint
 import sound
 import string
@@ -433,3 +441,8 @@ class MelodieStueck:
        """
 
 
+
+if __name__ == '__main__':
+	
+	print(modulname)
+	print("Hier gibt es bisher weder eine Demo noch einen Selbsttest.")
