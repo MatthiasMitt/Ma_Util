@@ -19,3 +19,18 @@ Ma_Console
 
 Schreibe Überschriften etc. je nach Plattfrom
 farbig oder anderes hervorgehoben.
+
+Ma_Koord
+--------
+
+In 'scene' and related packages the coordinates are integers counting pixels.
+'x'-values have their zero at the left edge and is growing to the right.
+'y'-values have their zero at the bottom edge and is growing upwards.
+
+In 'Image', 'ImageDraw' and related packages the coordinates are also integers
+and are also counting pixels.
+'x'-values have their zero at the left edge and is growing to the right.
+'y'-values have their zero at the top edge and is growing downwards.
+
+Dieser Modul hilft beim Konvertieren. Das ist zwar nicht schwierig,
+aber sehr fehleranfällig.

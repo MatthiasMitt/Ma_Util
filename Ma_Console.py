@@ -15,14 +15,20 @@ sys.path.insert(1,b4)
 
 from   Ma_Util.Ma_Plattform                         import Ma_Plattform
 
+try:
+	import console
+except:
+	pass
 
 class Ma_Console():
 	
 	def __init__(self):
 		self.plattform = Ma_Plattform()
 
-		if self.plattform.auf_iPhone_o_iPad():
-			import console
+		# if self.plattform.auf_iPhone_o_iPad():
+		# 	import console
+		# 	# Don't import into the namespace of a method.
+		# 	# It does not help !
 		
 	def title1(self,aStr):
 		if self.plattform.auf_iPhone_o_iPad():
