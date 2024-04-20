@@ -13,3 +13,9 @@ z.Z. sind bekannt:
 * iPad   mit iOS    und mit Pythonista
 * iPhone mit iPadOS und mit Pythonista
 * iMac   mit macOS  und mit python3
+
+Ma_Console
+----------
+
+Schreibe Überschriften etc. je nach Plattfrom
+farbig oder anderes hervorgehoben.
