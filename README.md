@@ -34,3 +34,12 @@ and are also counting pixels.
 
 Dieser Modul hilft beim Konvertieren. Das ist zwar nicht schwierig,
 aber sehr fehleranfällig.
+
+Ma_MIDI
+-------
+
+Bausteine um Melodien aufzuschreiben, die dann nach MIDI umgewandelt
+werden können. Auf iPad und iPhone scheint das der einzige Weg zur
+Tonausgabe zu sein: Erst eine MIDI-Datei erstellen und sie dann
+abspielen.
+[ Funktioniert bisher nur auf iPad und iPhone. ]
