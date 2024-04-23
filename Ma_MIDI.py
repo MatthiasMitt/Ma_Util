@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-modulename = "Ma_MIDI.py"
+modulname = "Ma_MIDI.py"
 _c_ = '(c) 2024, Matthias Mittelstein, Germany, 23816 Neversdorf, Hauptstraße 23'
 
 '''Generates a MIDI file with ... . The result is then played with the sound.MIDIPlayer class.
