@@ -20,6 +20,12 @@ class Ma_Plattform():
 	def auf_Mac(self):
 		return self.auf_iMac()
 	
+	def auf_Win10(self):
+		return self.p_p[0:10] == 'Windows-10'
+	
+	def auf_Win(self):
+		return self.auf_Win10()
+	
 	def auf_iPhone_o_iPad(self):
 		return self.auf_iPhone() or self.auf_iPad()
 		
@@ -30,6 +36,8 @@ class Ma_Plattform():
 			print('Ich bin auf einem iPad.')
 		elif self.auf_iPhone():
 			print('Ich bin auf einem iPhone.')
+		elif self.auf_Win():
+			print('Ich bin auf einem Windows-PC.')
 		else:
 			print('Ich weiss nicht wo ich bin.' +
 			      ' Wahrscheinlich könnte man es aus "{0}" herauslesen.'.format(self.p_p))
