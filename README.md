@@ -43,3 +43,16 @@ werden können. Auf iPad und iPhone scheint das der einzige Weg zur
 Tonausgabe zu sein: Erst eine MIDI-Datei erstellen und sie dann
 abspielen.
 [ Funktioniert bisher nur auf iPad und iPhone. ]
+
+Ma_DebugPrint.py
+----------------
+
+Eine Klasse für fest eingebaute Debug-Hilfen bzw.
+Spurverfolgung.
+
+Ma_Print.py
+-----------
+
+Formatiertes Drucken von Strukturen
+
+
