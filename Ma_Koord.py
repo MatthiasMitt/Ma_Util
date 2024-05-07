@@ -1,4 +1,5 @@
 modulname = 'Ma_Koord'
+_c_ = '(c) 2020, Matthias Mittelstein, Germany, 23816 Neversdorf, Hauptstraße 23'
 '''
 
 In 'scene' and related packages the coordinates are integers counting pixels.
