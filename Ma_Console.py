@@ -56,9 +56,11 @@ class Ma_Console():
 			print(aStr)
 			console.set_color()
 		else:
-			print('***')
-			print('**** ',aStr)
-			print('***')
+			#  echo -e "\033[0;31mERROR:\033[0m It worked"
+			# print('***')
+			# print('**** ',aStr)
+			# print('***')
+			print("\x1B[0;31m",aStr,"\x1B[0m",sep='')
 
 #end class
 
